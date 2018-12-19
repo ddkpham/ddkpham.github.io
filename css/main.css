@@ -236,7 +236,19 @@
     color: #007bff !important;
     font-weight: bold;
 }
-
+#contact h1{
+    text-align: center;
+    color: #8d7d7d !important;
+    padding-bottom: 10px;
+}
+#contact h1::after{
+    content:'';
+    background:#6d5f5f;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
 /*-------------FOOTER-------------*/
 #footer{
     background: #333;
