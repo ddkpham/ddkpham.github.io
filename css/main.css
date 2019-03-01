@@ -99,6 +99,13 @@
     border: 2px solid #ffffff;
     background: #292828;
 }
+
+.about a{
+    margin-bottom: 10px;
+}
+.about p{
+    color:white !important;
+}
 /*---------- SKILLS ------------------ */
 
 .wrapper{
@@ -111,9 +118,22 @@
     /* grid-auto-rows:100px; */
     /*grid-auto-rows: minmax(100px, auto);*/
 }
+/*----------------------------Work Experience */
 .description{
     background: #ffffff;
 }
+.description h2{
+    text-align: center;
+    color: black !important;
+    text-decoration: underline;
+}
+
+.description h3, p, h4{
+    text-align: center;
+    color: black !important;
+}
+
+
 .skills{
     background: #292828;
 }
@@ -238,12 +258,12 @@
 }
 #contact h1{
     text-align: center;
-    color: #8d7d7d !important;
+    color: #8d7d7d !important;    
     padding-bottom: 10px;
 }
 #contact h1::after{
     content:'';
-    background:#6d5f5f;
+    background:#8d7d7d !important;
     display:block;
     height: 3px;
     width: 170px;
